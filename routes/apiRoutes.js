@@ -37,12 +37,12 @@ module.exports = (app) => {
 
   app.get("/api/workouts/range", (req, res) => {
     db.Workout.aggregate(
-        {
+        [{
           $addFields: {
             totalWeight: { $sum: "$exercises.weight" } ,
             totalDuration: { $sum: "$exercises.duration" }
           }
-        })
+        }])
       .then((dbExercise) => {
         res.json(dbExercise);
       })
