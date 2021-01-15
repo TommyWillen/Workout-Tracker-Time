@@ -4,7 +4,7 @@ module.exports = (app) => {
   app.get("/api/workouts", (req, res) => {
     db.Workout.find()
       .then((dbExercise) => {
-        res.json(dbWorkout);
+        res.json(dbExercise);
       })
       .catch((err) => {
         res.json(err);
