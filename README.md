@@ -5,7 +5,7 @@
 
 ## Description
 
-This app utilizes MongoDB and the Mongoose library to store workout information for the user. Click [here]() to view the deployed app.
+This app utilizes MongoDB and the Mongoose library to store workout information for the user. Click [here](https://arcane-castle-69129.herokuapp.com/) to view the deployed app.
 
 ## Table of Contents
     
