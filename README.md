@@ -23,15 +23,12 @@ Run npm i to install the dependencies and npm run seed to add seeder data (durin
     
 ## Usage
 
-![Workout Tracker Time Usage Gif](/public/assets/images-and-gifs/.gif)
+![Workout Tracker Time Usage Gif](/public/assets/images-and-gifs/fitness-tracker.gif)
     
-To use this app you will need to install dependencies using node.js and run seed data during development (to have data to work with). This app uses the mongoose library to create, read, and update workout informaion from a user. The information is both stored as a workout session and individual exercises. Mongoose also allows me to create a schema for the data so that I can easily add the data to MondoDB. 
+To use this app you will need to install dependencies using node.js and run seed data during development (to have data to work with). This app uses the mongoose library to create, read, and update workout information from a user. The information is both stored as a workout session and individual exercises. Mongoose also allows me to create a schema for the data so that I can easily add the data to MondoDB. 
 
-I would like to eventually include a way to allow users to create their own username/password interface so they can see/edit their personal/private workouts because the current itteration only allows for one user and does not have any security attached to their workouts.
+I would like to eventually include a way to allow users to create their own username/password interface so they can see/edit their personal/private workouts because the current iteration only allows for one user and does not have any security attached to their workouts.
 
-Click the image below to view the video tutorial for the app.
-
-[![Workout Tracker Time Tutorial Video](/public/assets/images-and-gifs/.png)]()
 
 ## License
     
